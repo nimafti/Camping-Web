@@ -1,0 +1,111 @@
+@media (max-width: 380px) {
+    .header-content__title{
+        font-size: 3.8rem;
+    }
+    .destination__title{
+        font-size: 2.4rem;
+    }
+    .newsletter__title{
+        max-width: 16rem;
+    }
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+    .nav__btn, .nav-menu{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+    .newsletter{
+        flex-direction: row;
+        text-align: left;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .newsletter__content{
+        flex-basis: 60%;
+        padding-right: 2rem;
+        align-items: start;
+        margin-top: 0;
+    }
+    .newsletter__banner{
+        flex-basis: 40%;
+    }
+    .newsletter::before{
+        background-size: auto;
+        width: auto;
+        height: auto;
+        top: -40rem;
+        left: -56rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .nav__links{
+        display: block;
+    }
+    .header-content__caption{
+        max-width: 50rem;
+    }
+    .newsletter__content{
+        padding-right: 4rem;
+    }
+    .newsletter::before{
+        top: -40rem;
+        left: -43rem;
+    }
+    .footer__wrapper{
+        flex-direction: row;
+    }
+    .footer__left{
+        flex-basis: 40%;
+        margin-right: 3rem;
+    }
+    .footer__right{
+        flex-basis: 60%;
+        justify-content: space-evenly;
+    }
+    .footer-app{
+        display: block;
+    }
+    .footer-app--mobile{
+        display: none;
+    }
+    .footer__scroll{
+        left: auto;
+        right: 1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header{
+        min-height: 80rem;
+    }
+    .newsletter__content{
+        width: 60rem;
+        flex-basis: auto;
+    }
+    .newsletter__banner{
+        flex-basis: auto;
+        width: 42rem;
+    }
+    .newsletter::before{
+        top: -40rem;
+        left: -32rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .newsletter{
+        padding: 4rem 6rem;
+    }
+    .newsletter::before{
+        top: -40rem;
+        left: -20rem;
+    }
+}
